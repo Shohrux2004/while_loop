@@ -1,5 +1,7 @@
 void main() {
   Map data;
   data = {1: 'one', 2: 'two'};
-  print(data[1]);
+  data[0] = 'zero';
+
+  print(data);
 }
